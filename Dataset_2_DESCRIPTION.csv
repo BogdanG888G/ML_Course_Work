@@ -1,0 +1,1060 @@
+Variable,Var_description,Value,Label,Measurement_level,BaseData_Type,Name_BaseData,Filter_Variables
+PERSOON,new person,0,no new person,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+PERSOON,new person,1,new person,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+HHID,Unique Household ID,999999999,Input,Scale,Mobility,MPNWAVE6_DAGBOEKdata,1
+PERSID,Unique ID of Person,999999999,Unique ID of Person,Scale,Mobility,MPNWAVE6_DAGBOEKdata,1
+HH_VALID,Complete household yes or no,0,"Not a complete household, not all persons completed the questionnaire",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+HH_VALID,Complete household yes or no,1,"Not a complete household, but all persons completed the questionnaire",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+HH_VALID,Complete household yes or no,2,Yes a complete household,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+HH_VALID,Complete household yes or no,3,No household questionnaire,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+IMPHHDATA,Imputation household characteristics,0,"no household questionnaire, did not participate in 2017",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+IMPHHDATA,Imputation household characteristics,1,"no household questionnaire, imputation of household characteristics 2017",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+IMPHHDATA,Imputation household characteristics,2,household questionnaire is completed,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+P_VALID,Person completed the survey,0,"no questions asked, person is younger than 12 years old",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+P_VALID,Person completed the survey,1,person did not complete the questionnaire,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+P_VALID,Person completed the survey,2,person completed the questionnaire and did not complete the diary,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+P_VALID,Person completed the survey,3,person completed the questionnaire and completed the diary,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+P_VALID,Person completed the survey,4,person did not complete the questionnaire but did complete a diary,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VPLID,Unique ID per trip,999999999,Unique ID per trip,Scale,Mobility,MPNWAVE6_DAGBOEKdata,1
+WEGGEWEEST,Person travelled on trip day,0,On this day the person did not go somewhere,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+WEGGEWEEST,Person travelled on trip day,1,On this day the person did go somewhere,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTREKP,Departure point 1st trip,1,Own address,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTREKP,Departure point 1st trip,2,Another address,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTREKP,Departure point 1st trip,9,Unknown,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTREKP,Departure point 1st trip,99,On this day the person did not take a trip,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+AANTVPL,Number of trips per day,99,On this day the person did not take a trip,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VPLDAGNR,Trip Day Number,0,trip before the first day of recorded trips (spanning one day),Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VPLDAGNR,Trip Day Number,1,first day of recorded trips,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VPLDAGNR,Trip Day Number,2,second day of recorded trips,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VPLDAGNR,Trip Day Number,3,third day of recorded trips,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERPL,New trip,0,no new trip,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERPL,New trip,1,new trip,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERPL,New trip,2,regular occupational trip,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERPL,New trip,3,trip abroad,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERPL,New trip,4,occupational trip by truck,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERPL,New trip,5,vacation trip,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERPL,New trip,6,multiple occupational trip,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERPL,New trip,99,On this day the person did not take a trip,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERPLNR,Trip Number,99,On this day the person did not take a trip,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+TOER,Departure point of trip is arrival point of trip (round trip),0,No,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+TOER,Departure point of trip is arrival point of trip (round trip),1,Yes,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+TOER,Departure point of trip is arrival point of trip (round trip),99,On this day the person did not take a trip,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+TOER_TYPE,Round trip type,1,A walking / running / cycling excursion,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+TOER_TYPE,Round trip type,2,Mailing a letter,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+TOER_TYPE,Round trip type,3,Multiple trips for work,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+TOER_TYPE,Round trip type,4,Walking the dog,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+TOER_TYPE,Round trip type,5,Other,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+TOER_TYPE,Round trip type,6,Touring by car / motorcycle,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+TOER_TYPE,Round trip type,7,Picking up / dropping off people,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+TOER_TYPE,Round trip type,8,"Unkown, trip not reported as round trip",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+TOER_TYPE,Round trip type,9,Did not make round trip,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+TOER_TYPE,Round trip type,99,On this day the person did not take a trip,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+AANTRIT,Number of trip segments per day,99,On this day the person did not take a trip,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+DOEL,"Destination, objective of trip",1,To home,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+DOEL,"Destination, objective of trip",2,Work,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+DOEL,"Destination, objective of trip",3,Business-related visit in work context,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+DOEL,"Destination, objective of trip",4,Transport as a profession,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+DOEL,"Destination, objective of trip",5,"Dropping off, picking up people",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+DOEL,"Destination, objective of trip",6,"Delivering, picking up goods",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+DOEL,"Destination, objective of trip",7,"Following education study, courses",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+DOEL,"Destination, objective of trip",8,"Shopping, doing grocery shopping",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+DOEL,"Destination, objective of trip",9,Visitation,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+DOEL,"Destination, objective of trip",10,"Touring, hiking",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+DOEL,"Destination, objective of trip",11,"Sports, hobby",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+DOEL,"Destination, objective of trip",12,Other leisure time activities,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+DOEL,"Destination, objective of trip",13,"Services, personal care",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+DOEL,"Destination, objective of trip",14,Other purpose,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+DOEL,"Destination, objective of trip",15,Unknown,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+DOEL,"Destination, objective of trip",99,On this day the person did not take a trip,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+MOTIEF,Purpose of trip,1,To and from work,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+MOTIEF,Purpose of trip,2,Business-related visit in work context,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+MOTIEF,Purpose of trip,3,Transport as a profession,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+MOTIEF,Purpose of trip,4,"Dropping off, picking up people",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+MOTIEF,Purpose of trip,5,"Delivering, picking up goods",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+MOTIEF,Purpose of trip,6,"Following education study, courses",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+MOTIEF,Purpose of trip,7,"Shopping, doing grocery shopping",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+MOTIEF,Purpose of trip,8,Visitation,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+MOTIEF,Purpose of trip,9,"Touring, hiking",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+MOTIEF,Purpose of trip,10,"Sports, hobby",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+MOTIEF,Purpose of trip,11,Other leisure time activities,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+MOTIEF,Purpose of trip,12,"Services, personal care",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+MOTIEF,Purpose of trip,13,Other purpose,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+MOTIEF,Purpose of trip,14,Unknown,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+MOTIEF,Purpose of trip,99,On this day the person did not take a trip,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+KMOTIEF,Classification of purpose,1,To and from work,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KMOTIEF,Classification of purpose,2,Business-related visit in work context,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KMOTIEF,Classification of purpose,3,"Services, personal care",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KMOTIEF,Classification of purpose,4,"Shopping, doing grocery shopping",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KMOTIEF,Classification of purpose,5,"Following education study, courses",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KMOTIEF,Classification of purpose,6,Visitation,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KMOTIEF,Classification of purpose,7,Social recreational other,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KMOTIEF,Classification of purpose,8,"Touring, hiking",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KMOTIEF,Classification of purpose,9,Other purpose,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KMOTIEF,Classification of purpose,10,Unknown,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KMOTIEF,Classification of purpose,99,On this day the person did not take a trip,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTPROV,Province of Departure,0,No departure point in the Netherlands,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTPROV,Province of Departure,20,Groningen,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTPROV,Province of Departure,21,Friesland,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTPROV,Province of Departure,22,Drenthe,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTPROV,Province of Departure,23,Overijssel,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTPROV,Province of Departure,24,Flevoland,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTPROV,Province of Departure,25,Gelderland,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTPROV,Province of Departure,26,Utrecht,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTPROV,Province of Departure,27,North-Holland,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTPROV,Province of Departure,28,South-Holland,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTPROV,Province of Departure,29,Zeeland,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTPROV,Province of Departure,30,North-Brabant,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTPROV,Province of Departure,31,Limburg,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTPROV,Province of Departure,88,Province of departure unknown,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTPROV,Province of Departure,99,On this day the person did not take a trip,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+AFSTV_ORG,Traveldistance according to respondent,999999999,,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+G_AFSTAND,Traveldistance according to google maps,999999999,,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+AANKPROV,Province of Arrival,0,No arrival point in the Netherlands,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+AANKPROV,Province of Arrival,20,Groningen,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+AANKPROV,Province of Arrival,21,Friesland,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+AANKPROV,Province of Arrival,22,Drenthe,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+AANKPROV,Province of Arrival,23,Overijssel,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+AANKPROV,Province of Arrival,24,Flevoland,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+AANKPROV,Province of Arrival,25,Gelderland,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+AANKPROV,Province of Arrival,26,Utrecht,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+AANKPROV,Province of Arrival,27,North-Holland,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+AANKPROV,Province of Arrival,28,South-Holland,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+AANKPROV,Province of Arrival,29,Zeeland,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+AANKPROV,Province of Arrival,30,North-Brabant,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+AANKPROV,Province of Arrival,31,Limburg,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+AANKPROV,Province of Arrival,88,Province of arrival unknown,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+AANKPROV,Province of Arrival,99,On this day the person did not take a trip,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KAFSTV,Distance class trip,1,"0,1-0,5 km",Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KAFSTV,Distance class trip,2,0.5-1.0 km,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KAFSTV,Distance class trip,3,1.0-2.5 km,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KAFSTV,Distance class trip,4,2.5-3.7 km,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KAFSTV,Distance class trip,5,3.7-5.0 km,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KAFSTV,Distance class trip,6,5.0-7.5 km,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KAFSTV,Distance class trip,7,7.5-10 km,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KAFSTV,Distance class trip,8,10-15 km,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KAFSTV,Distance class trip,9,15-20 km,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KAFSTV,Distance class trip,10,20-30 km,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KAFSTV,Distance class trip,11,30-40 km,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KAFSTV,Distance class trip,12,40-50 km,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KAFSTV,Distance class trip,13,>50 km,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+HVM,Main transport mode trip,1,"Car as driver (gasoline, diesel or LPG)",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,2,"Car as driver (electric, hydrogen or hybrid)",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,3,"Car as passenger (gasoline, diesel or LPG)",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,4,"Car as passenger (electric, hydrogen or hybrid)",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,5,Van,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,6,Motorcycle,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,7,Train,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,8,Express tram/metro,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,9,Tram,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,10,Bus,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,11,Scooter,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,12,Moped,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,13,Electric scooter,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,14,"Bicycle, racing bicycle",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,15,"Electric bicycle, e-bike",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,16,Public Transport rental bicycle,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,17,Walking,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,18,Truck,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,19,Camper,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,20,Taxi,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,21,Touring car/bus (not Public Transport),Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,22,Agricultural vehicle,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,23,Boat (scheduled service / ferry),Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,24,Airplane,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,25,"Skates, rollerblades, push-scooter, Segway",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,26,Handicap-accessible vehicle,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,27,"Speed pedelec (max. 45 km/h, helmet required)",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,28,Folding bicycle,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,29,Other,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,98,Means of transport not stored,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+HVM,Main transport mode trip,99,On this day the person did not take a trip,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+KHVM,Main transport mode class trip,1,Car as driver,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KHVM,Main transport mode class trip,2,Car as passenger,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KHVM,Main transport mode class trip,3,Train,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KHVM,Main transport mode class trip,4,Bus/tram/metro,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KHVM,Main transport mode class trip,5,Scooter/moped,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KHVM,Main transport mode class trip,6,Bicycle,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KHVM,Main transport mode class trip,7,Walking,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KHVM,Main transport mode class trip,8,Other,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KVERTTIJD,Departure time class trip,1,0 to 4:00,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KVERTTIJD,Departure time class trip,2,4:00 to 7:00,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KVERTTIJD,Departure time class trip,3,7:00 to 8:00,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KVERTTIJD,Departure time class trip,4,8:00 to 9:00,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KVERTTIJD,Departure time class trip,5,9:00 to 12:00,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KVERTTIJD,Departure time class trip,6,12:00 to 13:00,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KVERTTIJD,Departure time class trip,7,13:00 to 14:00,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KVERTTIJD,Departure time class trip,8,14:00 to 16:00,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KVERTTIJD,Departure time class trip,9,16:00 to 17:00,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KVERTTIJD,Departure time class trip,10,17:00 to 18:00,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KVERTTIJD,Departure time class trip,11,18:00 to 19:00,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KVERTTIJD,Departure time class trip,12,19:00 to 20:00,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KVERTTIJD,Departure time class trip,13,20:00 to 24:00,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KREISDUUR,Travel duration class of trip,1,1 to 5 minutes,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KREISDUUR,Travel duration class of trip,2,5 to 10 minutes,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KREISDUUR,Travel duration class of trip,3,10 to 15 minutes,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KREISDUUR,Travel duration class of trip,4,15 to 20 minutes,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KREISDUUR,Travel duration class of trip,5,20 to 25 minutes,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KREISDUUR,Travel duration class of trip,6,25 to 30 minutes,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KREISDUUR,Travel duration class of trip,7,30 to 45 minutes,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KREISDUUR,Travel duration class of trip,8,45 to 60 minutes,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KREISDUUR,Travel duration class of trip,9,60 to 90 minutes,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KREISDUUR,Travel duration class of trip,10,90 to 120 minutes,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+KREISDUUR,Travel duration class of trip,11,120 minutes or more,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+REISDUUR_ORG,Traveltime according to respondent,999999999,,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+G_REISDUUR,Traveltime according to google maps,999999999,,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+ROLAUTO,Role in car trip,0,No trip by car,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+ROLAUTO,Role in car trip,1,Driver of car,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+ROLAUTO,Role in car trip,2,Passenger in car,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+PARKEERKOSTEN,Parking fees car trip (euro),0,<none>,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+PARKEERKOSTEN,Parking fees car trip (euro),1,less than 0.50 €,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+PARKEERKOSTEN,Parking fees car trip (euro),2,0.50 to 1.00 €,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+PARKEERKOSTEN,Parking fees car trip (euro),3,1.00 to 1.50 €,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+PARKEERKOSTEN,Parking fees car trip (euro),4,1.50 to 2.00 €,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+PARKEERKOSTEN,Parking fees car trip (euro),5,2.00 to 2.50 €,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+PARKEERKOSTEN,Parking fees car trip (euro),6,2.50 to 3.00 €,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+PARKEERKOSTEN,Parking fees car trip (euro),7,3.00 to 3.50 €,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+PARKEERKOSTEN,Parking fees car trip (euro),8,3.50 to 4.00 €,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+PARKEERKOSTEN,Parking fees car trip (euro),9,4.00 to 4.50 €,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+PARKEERKOSTEN,Parking fees car trip (euro),10,4.50 to 5.00 €,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+PARKEERKOSTEN,Parking fees car trip (euro),11,5.00 to 6.00 €,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+PARKEERKOSTEN,Parking fees car trip (euro),12,6.00 to 7.00 €,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+PARKEERKOSTEN,Parking fees car trip (euro),13,7.00 to 8.00 €,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+PARKEERKOSTEN,Parking fees car trip (euro),14,8.00 to 9.00 €,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+PARKEERKOSTEN,Parking fees car trip (euro),15,9.00 to 10.00 €,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+PARKEERKOSTEN,Parking fees car trip (euro),16,10.00 € or more,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTRAGING,Trip delay (in minutes),0,No delay,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTRAGING,Trip delay (in minutes),1,less than 5 minutes,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTRAGING,Trip delay (in minutes),2,5 to 10 minutes,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTRAGING,Trip delay (in minutes),3,10 to 15 minutes,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTRAGING,Trip delay (in minutes),4,15 to 20 minutes,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTRAGING,Trip delay (in minutes),5,20 to 30 minutes,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTRAGING,Trip delay (in minutes),6,30 tot 40 minutes,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTRAGING,Trip delay (in minutes),7,40 to 50 minutes,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTRAGING,Trip delay (in minutes),8,50 to 60 minutes,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTRAGING,Trip delay (in minutes),9,60 to 90 minutes,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTRAGING,Trip delay (in minutes),10,90 minutes or more,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,1
+RIT,Trip-segment type,0,no new trip-stage,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+RIT,Trip-segment type,1,new trip-stage,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+RIT,Trip-segment type,2,regular occupational trip-stage,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+RIT,Trip-segment type,3,trip-stage undertaken abroad,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+RIT,Trip-segment type,4,occupational trip-stage by truck,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+RIT,Trip-segment type,5,vacation-related trip-stage,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+RIT,Trip-segment type,6,multiple occupational trip-stage,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+RIT,Trip-segment type,99,On this day the person did not take a trip,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+RITNR,Trip-segment number of Trip,999999999,,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,1,"Car as driver (gasoline, diesel or LPG)",Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,2,"Car as driver (electric, hydrogen or hybrid)",Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,3,"Car as passenger (gasoline, diesel or LPG)",Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,4,"Car as passenger (electric, hydrogen or hybrid)",Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,5,Van,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,6,Motorcycle,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,7,Train,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,8,Express tram/metro,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,9,Tram,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,10,Bus,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,11,Scooter,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,12,Moped,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,13,Electric scooter,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,14,"Bicycle, racing bicycle",Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,15,"Electric bicycle, e-bike",Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,16,Public Transport rental bicycle,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,17,Walking,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,18,Truck,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,19,Camper,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,20,Taxi,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,21,Touring car/bus (not Public Transport),Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,22,Agricultural vehicle,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,23,Boat (scheduled service / ferry),Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,24,Airplane,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,25,"Skates, rollerblades, push-scooter, Segway",Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,26,Handicap-accessible vehicle,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,27,"Speed pedelec (max. 45 km/h, helmet required)",Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,28,Folding bicycle,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,29,Other,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,98,Means of transport not stored,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RVM,Trip-segment transport mode,99,On this day the person did not take a trip,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+KRVM,Class trip-segment transport mode,1,Car as driver,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+KRVM,Class trip-segment transport mode,2,Car as passenger,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+KRVM,Class trip-segment transport mode,3,Train,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+KRVM,Class trip-segment transport mode,4,Bus/tram/metro,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+KRVM,Class trip-segment transport mode,5,Scooter/moped,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+KRVM,Class trip-segment transport mode,6,Bicycle,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+KRVM,Class trip-segment transport mode,7,Walking,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+KRVM,Class trip-segment transport mode,8,Other,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+KRVM,Class trip-segment transport mode,98,Means of transport not stored,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+KRVM,Class trip-segment transport mode,99,On this day the person did not take a trip,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+AFSTVBL,Distance of trip including place of origin and/or destination abroad,999999999,,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+REISDUURBL,Duration of trip including place of origin and/or destination abroad,999999999,,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+Bestuurder,Driver trip-segment transport mode,0,Not asked,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+Bestuurder,Driver trip-segment transport mode,1,"Yes, driver",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+Bestuurder,Driver trip-segment transport mode,2,"No, passenger",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+SAMENREIZEN,Number of people travelling together (not including the person itself) on the trip-segment level,0,travelled alone,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,0
+SAMENREIZEN,Number of people travelling together (not including the person itself) on the trip-segment level,1,travelled together with 1 person,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,0
+SAMENREIZEN,Number of people travelling together (not including the person itself) on the trip-segment level,2,travelled together with 2 persons,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,0
+SAMENREIZEN,Number of people travelling together (not including the person itself) on the trip-segment level,3,travelled together with 3 persons,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,0
+SAMENREIZEN,Number of people travelling together (not including the person itself) on the trip-segment level,4,travelled together with 4 persons,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,0
+SAMENREIZEN,Number of people travelling together (not including the person itself) on the trip-segment level,5,travelled together with 5 persons,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,0
+SAMENREIZEN,Number of people travelling together (not including the person itself) on the trip-segment level,6,travelled together with more than 5 people,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,0
+SAMENREIZEN,Number of people travelling together (not including the person itself) on the trip-segment level,98,Means of transport not stored,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,0
+SAMENREIZEN,Number of people travelling together (not including the person itself) on the trip-segment level,99,On this day the person did not take a trip,Ordinal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BTYPEVERPL,Single or multiple occupational trip,1,Single trip,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BTYPEVERPL,Single or multiple occupational trip,2,"Three or more occupational trips. Travel time, distance and means of transport show total of the trips",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BTYPEWERK,In case of multiple occupational trips: what suits the work that has been done best,1,"Construction (housing construction, renovation, renovation, road construction, etc.)",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BTYPEWERK,In case of multiple occupational trips: what suits the work that has been done best,2,"Service (repair, installation, maintenance, etc.)",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BTYPEWERK,In case of multiple occupational trips: what suits the work that has been done best,3,"Postal, parcel and delivery services (including newspapers, folders, meals, groceries, etc.)",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BTYPEWERK,In case of multiple occupational trips: what suits the work that has been done best,4,"Freight transport (distribution and supply, etc.)",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BTYPEWERK,In case of multiple occupational trips: what suits the work that has been done best,5,"Passenger transport (public transport, taxi, shuttle bus company, etc.)",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BTYPEWERK,In case of multiple occupational trips: what suits the work that has been done best,6,"Care (home help, district nursing, informal care, etc.)",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BTYPEWERK,In case of multiple occupational trips: what suits the work that has been done best,7,"Assistance (police, fire brigade, ambulance, general practitioner, first aid, etc.)",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BTYPEWERK,In case of multiple occupational trips: what suits the work that has been done best,8,"Business (representative, advisor, consultant, etc.)",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BTYPEWERK,In case of multiple occupational trips: what suits the work that has been done best,9,"Waste collection service, recycling, etc.",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BTYPEWERK,In case of multiple occupational trips: what suits the work that has been done best,10,Other,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BTYPEWERK,In case of multiple occupational trips: what suits the work that has been done best,99,no multiple occupational trips after this trip,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,1,"Car as driver (gasoline, diesel or LPG)",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,2,"Car as driver (electric, hydrogen or hybrid)",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,3,"Car as passenger (gasoline, diesel or LPG)",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,4,"Car as passenger (electric, hydrogen or hybrid)",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,5,Van,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,6,Motorcycle,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,7,Train,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,8,Express tram/metro,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,9,Tram,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,10,Bus,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,11,Scooter,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,12,Moped,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,13,Electric scooter,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,14,"Bicycle, racing bicycle",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,15,"Electric bicycle, e-bike",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,16,Public Transport rental bicycle,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,17,Walking,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,18,Truck,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,19,Camper,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,20,Taxi,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,21,Touring car/bus (not Public Transport),Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,22,Agricultural vehicle,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,23,Boat (scheduled service / ferry),Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,24,Airplane,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,25,"Skates, rollerblades, push-scooter, Segway",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,26,Handicap-accessible vehicle,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,27,"Speed pedelec (max. 45 km/h, helmet required)",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,28,Folding bicycle,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BHVM,Main vehicle occupational trip,29,Other,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+KBHVM,Main vehicle class occupational trip,1,Car as driver,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+KBHVM,Main vehicle class occupational trip,2,Car as passenger,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+KBHVM,Main vehicle class occupational trip,3,Train,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+KBHVM,Main vehicle class occupational trip,4,Bus/tram/metro,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+KBHVM,Main vehicle class occupational trip,5,Scooter/moped,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+KBHVM,Main vehicle class occupational trip,6,Bicycle,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+KBHVM,Main vehicle class occupational trip,7,Walking,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+KBHVM,Main vehicle class occupational trip,8,Other,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,1,"Car as driver (gasoline, diesel or LPG)",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,2,"Car as driver (electric, hydrogen or hybrid)",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,3,"Car as passenger (gasoline, diesel or LPG)",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,4,"Car as passenger (electric, hydrogen or hybrid)",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,5,Van,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,6,Motorcycle,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,7,Train,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,8,Express tram/metro,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,9,Tram,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,10,Bus,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,11,Scooter,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,12,Moped,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,13,Electric scooter,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,14,"Bicycle, racing bicycle",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,15,"Electric bicycle, e-bike",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,16,Public Transport rental bicycle,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,17,Walking,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,18,Truck,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,19,Camper,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,20,Taxi,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,21,Touring car/bus (not Public Transport),Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,22,Agricultural vehicle,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,23,Boat (scheduled service / ferry),Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,24,Airplane,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,25,"Skates, rollerblades, push-scooter, Segway",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,26,Handicap-accessible vehicle,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,27,"Speed pedelec (max. 45 km/h, helmet required)",Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,28,Folding bicycle,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+BRVM,Trip-segment vehicle occupational trip,29,Other,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+KBRVM,Trip-segment vehicle class occupational trip,1,Car as driver,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+KBRVM,Trip-segment vehicle class occupational trip,2,Car as passenger,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+KBRVM,Trip-segment vehicle class occupational trip,3,Train,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+KBRVM,Trip-segment vehicle class occupational trip,4,Bus/tram/metro,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+KBRVM,Trip-segment vehicle class occupational trip,5,Scooter/moped,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+KBRVM,Trip-segment vehicle class occupational trip,6,Bicycle,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+KBRVM,Trip-segment vehicle class occupational trip,7,Walking,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+KBRVM,Trip-segment vehicle class occupational trip,8,Other,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+CORRECTIE_VVM,Correction of stated mode of transport,0,not corrected,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+CORRECTIE_VVM,Correction of stated mode of transport,1,corrected,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+MARKERING_VVM,Transport mode marked: possibly incorrect,0,unmarked,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+MARKERING_VVM,Transport mode marked: possibly incorrect,1,marked,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+CORRECTIE_AFSTAND,Correction of stated distance,0,not corrected,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+CORRECTIE_AFSTAND,Correction of stated distance,1,corrected,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+CORRECTIE_REISTIJD,Correction of calculated travel time,0,not corrected,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+CORRECTIE_REISTIJD,Correction of calculated travel time,1,corrected,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+CORRECTIE_VERTREKDATUM,Correction of stated departure date,0,not corrected,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+CORRECTIE_VERTREKDATUM,Correction of stated departure date,1,corrected,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+MARKERING_REISTIJD1,Travel time of trip marked: possibly incorrect,0,unmarked,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+MARKERING_REISTIJD1,Travel time of trip marked: travel time of domestic trip > 300 min,1,marked,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+MARKERING_REISTIJD2,Travel time of trip marked: travel time of domestic trip > 300 min,0,unmarked,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+MARKERING_REISTIJD2,Travel time of trip marked: travel time of domestic trip > 300 min,1,marked,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+MARKERING_AFSTAND,Distance of trip marked: distance of domestic trip > 450 km,0,unmarked,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+MARKERING_AFSTAND,Distance of trip marked: distance of domestic trip > 450 km,1,marked,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+MARKERING_OVERIG,"Trip marked: trip includes possible incorrect information, unknown what is possibly incorrect",0,unmarked,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+MARKERING_OVERIG,"Trip marked: trip includes possible incorrect information, unknown what is possibly incorrect",1,marked,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,0
+DAGSOORT,"type of day: weekday, weekend",1,weekday,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+DAGSOORT,"type of day: weekday, weekend",2,weekend,Nominal,Mobility,MPNWAVE6_DAGBOEKdata,1
+VERTPC2,Trip Departure postal code (PC2),0,No departure point in the Netherlands,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+VERTPC2,Trip Departure postal code (PC3),199,On this day the person did not take a trip,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+VERTPC2,Trip Departure postal code (PC4),1999,Postal code unknown,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+AANKPC2,Trip Arrival postal code (PC2),0,No arrival point in the Netherlands,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+AANKPC2,Trip Arrival postal code (PC3),199,On this day the person did not take a trip,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+AANKPC2,Trip Arrival postal code (PC4),1999,Postal code unknown,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+JAAR,Research year,999999999,Research year,Scale,Mobility,MPNWAVE6_DAGBOEKdata,1
+AFSTV,Distance of trip (in km),999999999,Distance of trip (in km),Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+REISDUUR,Travel time of trip in minutes,999999999,Travel time of trip in minutes,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+RitID,<none>,999999999,<none>,Scale,Mobility,MPNWAVE6_DAGBOEKdata,1
+BAFSTV,Distance of occupational trip,999999999,Distance of occupational trip,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+vlokatie_centrumsgw,Straight line distance between nearest centre of a urban district and departure point,999999999,Straight line distance between nearest centre of a urban district and departure point,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+vlokatie_opafrit,Straight line distance between nearest approach or exit road and departure point,999999999,Straight line distance between nearest approach or exit road and departure point,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+vlokatie_icknooppunt,Straigth line distance between nearest intercity junction and departure point,999999999,Straigth line distance between nearest intercity junction and departure point,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+vlokatie_station,Straight line distance between nearest station and departure point,999999999,Straight line distance between nearest station and departure point,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+vlokatie_metrosneltramhalte,Straight line distance between nearest metro or express tram stop and departure point,999999999,Straight line distance between nearest metro or express tram stop and departure point,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+vlokatie_tramhalte,Straight line distance between nearest tram stop and departure point,999999999,Straight line distance between nearest tram stop and departure point,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+vlokatie_bushalte4xpu,Straight line distance between nearest bus stop with at least 4 times per hour a bus and departure point,999999999,Straight line distance between nearest bus stop with at least 4 times per hour a bus and departure point,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+vlokatie_bushalte2xpu,Straight line distance between nearest bus stop with at least 2 times per hour a bus and departure point,999999999,Straight line distance between nearest bus stop with at least 2 times per hour a bus and departure point,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+vlokatie_bushalte1xpu,Straight line distance between nearest bus stop with at least 1 time per hour a bus and departure point,999999999,Straight line distance between nearest bus stop with at least 1 time per hour a bus and departure point,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+vlokatie_bushaltekl1xpu,Straight line distance between nearest bus stop with less than 1 time per hour a bus and departure point,999999999,Straight line distance between nearest bus stop with less than 1 time per hour a bus and departure point,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+alokatie_centrumsgw,Straight line distance between nearest centre of a urban district and arrival point,999999999,Straight line distance between nearest centre of a urban district and arrival point,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+alokatie_opafrit,Straight line distance between nearest approach or exit road and arrival point,999999999,Straight line distance between nearest approach or exit road and arrival point,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+alokatie_icknooppunt,Straigth line distance between nearest intercity junction and arrival point,999999999,Straigth line distance between nearest intercity junction and arrival point,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+alokatie_station,Straight line distance between nearest station and arrival point,999999999,Straight line distance between nearest station and arrival point,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+alokatie_metrosneltramhalte,Straight line distance between nearest metro or express tram stop and arrival point,999999999,Straight line distance between nearest metro or express tram stop and arrival point,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+alokatie_tramhalte,Straight line distance between nearest tram stop and arrival point,999999999,Straight line distance between nearest tram stop and arrival point,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+alokatie_bushalte4xpu,Straight line distance between nearest bus stop with at least 4 times per hour a bus and arrival point,999999999,Straight line distance between nearest bus stop with at least 4 times per hour a bus and arrival point,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+alokatie_bushalte2xpu,Straight line distance between nearest bus stop with at least 2 times per hour a bus and arrival point,999999999,Straight line distance between nearest bus stop with at least 2 times per hour a bus and arrival point,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+alokatie_bushalte1xpu,Straight line distance between nearest bus stop with at least 1 time per hour a bus and arrival point,999999999,Straight line distance between nearest bus stop with at least 1 time per hour a bus and arrival point,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+alokatie_bushaltekl1xpu,Straight line distance between nearest bus stop and arrival point,999999999,Straight line distance between nearest bus stop and arrival point,Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+WOONPC2,residential postal code (PC2),999999999,residential postal code (PC2),Scale,Mobility,MPNWAVE6_DAGBOEKdata,0
+WAVE4,Participation in special topic 2016,0,no special topic in 2016,Nominal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+WAVE4,Participation in special topic 2016,1,special subject in 2016,Nominal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+OORDEEL_AUTO,Personal impression of the car,1,Very negative,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_AUTO,Personal impression of the car,2,Negative,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_AUTO,Personal impression of the car,3,Not positive / not negative,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_AUTO,Personal impression of the car,4,Positive,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_AUTO,Personal impression of the car,5,Very positive,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_AUTO,Personal impression of the car,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_TREIN,Personal impression of the train,1,Very negative,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_TREIN,Personal impression of the train,2,Negative,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_TREIN,Personal impression of the train,3,Not positive / not negative,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_TREIN,Personal impression of the train,4,Positive,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_TREIN,Personal impression of the train,5,Very positive,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_TREIN,Personal impression of the train,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_BTM,"Personal impression of the bus, tram and metro",1,Very negative,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_BTM,"Personal impression of the bus, tram and metro",2,Negative,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_BTM,"Personal impression of the bus, tram and metro",3,Not positive / not negative,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_BTM,"Personal impression of the bus, tram and metro",4,Positive,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_BTM,"Personal impression of the bus, tram and metro",5,Very positive,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_BTM,"Personal impression of the bus, tram and metro",6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_FIETS,"Personal impression of the bicycle, e-bike",1,Very negative,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_FIETS,"Personal impression of the bicycle, e-bike",2,Negative,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_FIETS,"Personal impression of the bicycle, e-bike",3,Not positive / not negative,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_FIETS,"Personal impression of the bicycle, e-bike",4,Positive,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_FIETS,"Personal impression of the bicycle, e-bike",5,Very positive,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_FIETS,"Personal impression of the bicycle, e-bike",6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_BROMMER,"Personal impression of the moped, scooter",1,Very negative,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_BROMMER,"Personal impression of the moped, scooter",2,Negative,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_BROMMER,"Personal impression of the moped, scooter",3,Not positive / not negative,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_BROMMER,"Personal impression of the moped, scooter",4,Positive,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_BROMMER,"Personal impression of the moped, scooter",5,Very positive,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_BROMMER,"Personal impression of the moped, scooter",6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_LOPEN,"Personal impression of the moped, scooter",1,Very negative,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_LOPEN,"Personal impression of the moped, scooter",2,Negative,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_LOPEN,"Personal impression of the moped, scooter",3,Not positive / not negative,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_LOPEN,"Personal impression of the moped, scooter",4,Positive,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_LOPEN,"Personal impression of the moped, scooter",5,Very positive,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+OORDEEL_LOPEN,"Personal impression of the moped, scooter",6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_AUTO_STELLING1,I find travelling by car to be comfortable,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING1,I find travelling by car to be comfortable,2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING1,I find travelling by car to be comfortable,3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING1,I find travelling by car to be comfortable,4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING1,I find travelling by car to be comfortable,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING1,I find travelling by car to be comfortable,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING2,I find travelling by car to be relaxing,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING2,I find travelling by car to be relaxing,2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING2,I find travelling by car to be relaxing,3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING2,I find travelling by car to be relaxing,4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING2,I find travelling by car to be relaxing,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING2,I find travelling by car to be relaxing,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING3,Travelling by car saves me time,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_AUTO_STELLING3,Travelling by car saves me time,2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_AUTO_STELLING3,Travelling by car saves me time,3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_AUTO_STELLING3,Travelling by car saves me time,4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_AUTO_STELLING3,Travelling by car saves me time,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_AUTO_STELLING3,Travelling by car saves me time,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_AUTO_STELLING4,Travelling by car is safe,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_AUTO_STELLING4,Travelling by car is safe,2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_AUTO_STELLING4,Travelling by car is safe,3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_AUTO_STELLING4,Travelling by car is safe,4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_AUTO_STELLING4,Travelling by car is safe,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_AUTO_STELLING4,Travelling by car is safe,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_AUTO_STELLING5,I find travelling by car to be flexible,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING5,I find travelling by car to be flexible,2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING5,I find travelling by car to be flexible,3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING5,I find travelling by car to be flexible,4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING5,I find travelling by car to be flexible,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING5,I find travelling by car to be flexible,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING6,Travelling by car is pleasurable,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING6,Travelling by car is pleasurable,2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING6,Travelling by car is pleasurable,3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING6,Travelling by car is pleasurable,4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING6,Travelling by car is pleasurable,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING6,Travelling by car is pleasurable,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING7,Travelling by car gives me prestige,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING7,Travelling by car gives me prestige,2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING7,Travelling by car gives me prestige,3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING7,Travelling by car gives me prestige,4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING7,Travelling by car gives me prestige,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_AUTO_STELLING7,Travelling by car gives me prestige,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING1,I find travelling by train to be comfortable,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING1,I find travelling by train to be comfortable,2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING1,I find travelling by train to be comfortable,3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING1,I find travelling by train to be comfortable,4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING1,I find travelling by train to be comfortable,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING1,I find travelling by train to be comfortable,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING2,I find travelling by train to be relaxing,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING2,I find travelling by train to be relaxing,2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING2,I find travelling by train to be relaxing,3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING2,I find travelling by train to be relaxing,4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING2,I find travelling by train to be relaxing,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING2,I find travelling by train to be relaxing,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING3,Travelling by train saves me time,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_TREIN_STELLING3,Travelling by train saves me time,2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_TREIN_STELLING3,Travelling by train saves me time,3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_TREIN_STELLING3,Travelling by train saves me time,4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_TREIN_STELLING3,Travelling by train saves me time,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_TREIN_STELLING3,Travelling by train saves me time,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_TREIN_STELLING4,Travelling by train is safe,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_TREIN_STELLING4,Travelling by train is safe,2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_TREIN_STELLING4,Travelling by train is safe,3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_TREIN_STELLING4,Travelling by train is safe,4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_TREIN_STELLING4,Travelling by train is safe,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_TREIN_STELLING4,Travelling by train is safe,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_TREIN_STELLING5,I find travelling by train to be flexible,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING5,I find travelling by train to be flexible,2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING5,I find travelling by train to be flexible,3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING5,I find travelling by train to be flexible,4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING5,I find travelling by train to be flexible,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING5,I find travelling by train to be flexible,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING6,Travelling by train is pleasurable,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING6,Travelling by train is pleasurable,2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING6,Travelling by train is pleasurable,3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING6,Travelling by train is pleasurable,4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING6,Travelling by train is pleasurable,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING6,Travelling by train is pleasurable,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING7,Travelling by train gives me prestige,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING7,Travelling by train gives me prestige,2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING7,Travelling by train gives me prestige,3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING7,Travelling by train gives me prestige,4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING7,Travelling by train gives me prestige,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_TREIN_STELLING7,Travelling by train gives me prestige,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING1,"I find travelling by bus, tram or metro to be comfortable",1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING1,"I find travelling by bus, tram or metro to be comfortable",2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING1,"I find travelling by bus, tram or metro to be comfortable",3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING1,"I find travelling by bus, tram or metro to be comfortable",4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING1,"I find travelling by bus, tram or metro to be comfortable",5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING1,"I find travelling by bus, tram or metro to be comfortable",6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING2,"I find travelling by bus, tram or metro to be relaxing",1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING2,"I find travelling by bus, tram or metro to be relaxing",2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING2,"I find travelling by bus, tram or metro to be relaxing",3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING2,"I find travelling by bus, tram or metro to be relaxing",4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING2,"I find travelling by bus, tram or metro to be relaxing",5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING2,"I find travelling by bus, tram or metro to be relaxing",6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING3,"Travelling by bus, tram or metro saves me time",1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_BTM_STELLING3,"Travelling by bus, tram or metro saves me time",2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_BTM_STELLING3,"Travelling by bus, tram or metro saves me time",3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_BTM_STELLING3,"Travelling by bus, tram or metro saves me time",4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_BTM_STELLING3,"Travelling by bus, tram or metro saves me time",5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_BTM_STELLING3,"Travelling by bus, tram or metro saves me time",6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_BTM_STELLING4,"Travelling by bus, tram or metro is safe",1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_BTM_STELLING4,"Travelling by bus, tram or metro is safe",2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_BTM_STELLING4,"Travelling by bus, tram or metro is safe",3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_BTM_STELLING4,"Travelling by bus, tram or metro is safe",4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_BTM_STELLING4,"Travelling by bus, tram or metro is safe",5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_BTM_STELLING4,"Travelling by bus, tram or metro is safe",6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_BTM_STELLING5,"I find travelling by bus, tram or metro to be flexible",1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING5,"I find travelling by bus, tram or metro to be flexible",2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING5,"I find travelling by bus, tram or metro to be flexible",3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING5,"I find travelling by bus, tram or metro to be flexible",4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING5,"I find travelling by bus, tram or metro to be flexible",5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING5,"I find travelling by bus, tram or metro to be flexible",6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING6,"Travelling by bus, tram or metro is pleasurable",1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING6,"Travelling by bus, tram or metro is pleasurable",2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING6,"Travelling by bus, tram or metro is pleasurable",3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING6,"Travelling by bus, tram or metro is pleasurable",4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING6,"Travelling by bus, tram or metro is pleasurable",5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING6,"Travelling by bus, tram or metro is pleasurable",6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING7,"Travelling by bus, tram or metro gives me prestige",1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING7,"Travelling by bus, tram or metro gives me prestige",2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING7,"Travelling by bus, tram or metro gives me prestige",3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING7,"Travelling by bus, tram or metro gives me prestige",4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING7,"Travelling by bus, tram or metro gives me prestige",5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_BTM_STELLING7,"Travelling by bus, tram or metro gives me prestige",6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING1,I find cycling to be comfortable,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING1,I find cycling to be comfortable,2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING1,I find cycling to be comfortable,3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING1,I find cycling to be comfortable,4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING1,I find cycling to be comfortable,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING1,I find cycling to be comfortable,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING2,I find cycling to be relaxing,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_FIETS_STELLING2,I find cycling to be relaxing,2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_FIETS_STELLING2,I find cycling to be relaxing,3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_FIETS_STELLING2,I find cycling to be relaxing,4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_FIETS_STELLING2,I find cycling to be relaxing,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_FIETS_STELLING2,I find cycling to be relaxing,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_FIETS_STELLING3,Cycling saves me time,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_FIETS_STELLING3,Cycling saves me time,2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_FIETS_STELLING3,Cycling saves me time,3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_FIETS_STELLING3,Cycling saves me time,4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_FIETS_STELLING3,Cycling saves me time,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_FIETS_STELLING3,Cycling saves me time,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_FIETS_STELLING4,Cycling is safe,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING4,Cycling is safe,2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING4,Cycling is safe,3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING4,Cycling is safe,4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING4,Cycling is safe,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING4,Cycling is safe,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING5,I find cycling to be flexible,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING5,I find cycling to be flexible,2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING5,I find cycling to be flexible,3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING5,I find cycling to be flexible,4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING5,I find cycling to be flexible,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING5,I find cycling to be flexible,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING6,Cycling is pleasurable,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING6,Cycling is pleasurable,2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING6,Cycling is pleasurable,3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING6,Cycling is pleasurable,4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING6,Cycling is pleasurable,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING6,Cycling is pleasurable,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING7,Cycling gives me prestige,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING7,Cycling gives me prestige,2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING7,Cycling gives me prestige,3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING7,Cycling gives me prestige,4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING7,Cycling gives me prestige,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_FIETS_STELLING7,Cycling gives me prestige,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING1,I find walking to be comfortable,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING1,I find walking to be comfortable,2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING1,I find walking to be comfortable,3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING1,I find walking to be comfortable,4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING1,I find walking to be comfortable,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING1,I find walking to be comfortable,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING2,I find walking to be relaxing,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING2,I find walking to be relaxing,2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING2,I find walking to be relaxing,3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING2,I find walking to be relaxing,4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING2,I find walking to be relaxing,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING2,I find walking to be relaxing,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING3,Walking saves me time,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_LOPEN_STELLING3,Walking saves me time,2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_LOPEN_STELLING3,Walking saves me time,3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_LOPEN_STELLING3,Walking saves me time,4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_LOPEN_STELLING3,Walking saves me time,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_LOPEN_STELLING3,Walking saves me time,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_LOPEN_STELLING4,Walking is safe,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_LOPEN_STELLING4,Walking is safe,2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_LOPEN_STELLING4,Walking is safe,3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_LOPEN_STELLING4,Walking is safe,4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_LOPEN_STELLING4,Walking is safe,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_LOPEN_STELLING4,Walking is safe,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,1
+GEBRUIK_LOPEN_STELLING5,I find walking to be flexible,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING5,I find walking to be flexible,2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING5,I find walking to be flexible,3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING5,I find walking to be flexible,4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING5,I find walking to be flexible,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING5,I find walking to be flexible,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING6,Walking is pleasurable,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING6,Walking is pleasurable,2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING6,Walking is pleasurable,3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING6,Walking is pleasurable,4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING6,Walking is pleasurable,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING6,Walking is pleasurable,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING7,Walking gives me prestige,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING7,Walking gives me prestige,2,disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING7,Walking gives me prestige,3,"do not agree, do not disagree",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING7,Walking gives me prestige,4,agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING7,Walking gives me prestige,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+GEBRUIK_LOPEN_STELLING7,Walking gives me prestige,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING1,Travelling must be comfortable,1,Very unimportant,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING1,Travelling must be comfortable,2,Unimportant,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING1,Travelling must be comfortable,3,"Not important, not unimportant",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING1,Travelling must be comfortable,4,Important,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING1,Travelling must be comfortable,5,Very important,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING2,Travelling must be relaxing,1,Very unimportant,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING2,Travelling must be relaxing,2,Unimportant,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING2,Travelling must be relaxing,3,"Not important, not unimportant",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING2,Travelling must be relaxing,4,Important,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING2,Travelling must be relaxing,5,Very important,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING3,Travelling must save me time,1,Very unimportant,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING3,Travelling must save me time,2,Unimportant,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING3,Travelling must save me time,3,"Not important, not unimportant",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING3,Travelling must save me time,4,Important,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING3,Travelling must save me time,5,Very important,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING4,Travelling must be safe,1,Very unimportant,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING4,Travelling must be safe,2,Unimportant,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING4,Travelling must be safe,3,"Not important, not unimportant",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING4,Travelling must be safe,4,Important,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING4,Travelling must be safe,5,Very important,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING5,Travelling must be flexible,1,Very unimportant,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING5,Travelling must be flexible,2,Unimportant,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING5,Travelling must be flexible,3,"Not important, not unimportant",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING5,Travelling must be flexible,4,Important,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING5,Travelling must be flexible,5,Very important,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING6,Travelling must be pleasurable,1,Very unimportant,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING6,Travelling must be pleasurable,2,Unimportant,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING6,Travelling must be pleasurable,3,"Not important, not unimportant",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING6,Travelling must be pleasurable,4,Important,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING6,Travelling must be pleasurable,5,Very important,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING7,Travelling must give me prestige,1,Very unimportant,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING7,Travelling must give me prestige,2,Unimportant,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING7,Travelling must give me prestige,3,"Not important, not unimportant",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING7,Travelling must give me prestige,4,Important,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+BELANG_STELLING7,Travelling must give me prestige,5,Very important,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_01,"When I'm behind the wheel, I have a sense of control",1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_01,"When I'm behind the wheel, I have a sense of control",2,Somewhat disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_01,"When I'm behind the wheel, I have a sense of control",3,Neutral,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_01,"When I'm behind the wheel, I have a sense of control",4,Somewhat agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_01,"When I'm behind the wheel, I have a sense of control",5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_01,"When I'm behind the wheel, I have a sense of control",6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_01,"When I'm behind the wheel, I have a sense of control",7,"Not asked, person is younger than 17 years old",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_02,I like to drive fast,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_02,I like to drive fast,2,Somewhat disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_02,I like to drive fast,3,Neutral,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_02,I like to drive fast,4,Somewhat agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_02,I like to drive fast,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_02,I like to drive fast,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_02,I like to drive fast,7,"Not asked, person is younger than 17 years old",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_03,Driving a car is my hobby,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_03,Driving a car is my hobby,2,Somewhat disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_03,Driving a car is my hobby,3,Neutral,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_03,Driving a car is my hobby,4,Somewhat agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_03,Driving a car is my hobby,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_03,Driving a car is my hobby,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_03,Driving a car is my hobby,7,"Not asked, person is younger than 17 years old",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_04,Driving a car gives me a kick,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_04,Driving a car gives me a kick,2,Somewhat disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_04,Driving a car gives me a kick,3,Neutral,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_04,Driving a car gives me a kick,4,Somewhat agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_04,Driving a car gives me a kick,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_04,Driving a car gives me a kick,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_04,Driving a car gives me a kick,7,"Not asked, person is younger than 17 years old",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_05,Driving a car is sporty and adventurous,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_05,Driving a car is sporty and adventurous,2,Somewhat disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_05,Driving a car is sporty and adventurous,3,Neutral,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_05,Driving a car is sporty and adventurous,4,Somewhat agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_05,Driving a car is sporty and adventurous,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_05,Driving a car is sporty and adventurous,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_05,Driving a car is sporty and adventurous,7,"Not asked, person is younger than 17 years old",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_06,A car says a lot about someone's status in society,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_06,A car says a lot about someone's status in society,2,Somewhat disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_06,A car says a lot about someone's status in society,3,Neutral,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_06,A car says a lot about someone's status in society,4,Somewhat agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_06,A car says a lot about someone's status in society,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_06,A car says a lot about someone's status in society,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_06,A car says a lot about someone's status in society,7,"Not asked, person is younger than 17 years old",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_07,I like driving a nice car,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_07,I like driving a nice car,2,Somewhat disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_07,I like driving a nice car,3,Neutral,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_07,I like driving a nice car,4,Somewhat agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_07,I like driving a nice car,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_07,I like driving a nice car,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_07,I like driving a nice car,7,"Not asked, person is younger than 17 years old",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_08,The car gives me a feeling of freedom,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_08,The car gives me a feeling of freedom,2,Somewhat disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_08,The car gives me a feeling of freedom,3,Neutral,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_08,The car gives me a feeling of freedom,4,Somewhat agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_08,The car gives me a feeling of freedom,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_08,The car gives me a feeling of freedom,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_08,The car gives me a feeling of freedom,7,"Not asked, person is younger than 17 years old",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_09,The car makes my life easier,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_09,The car makes my life easier,2,Somewhat disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_09,The car makes my life easier,3,Neutral,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_09,The car makes my life easier,4,Somewhat agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_09,The car makes my life easier,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_09,The car makes my life easier,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_09,The car makes my life easier,7,"Not asked, person is younger than 17 years old",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_10,The car offers me protection against bad weather,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_10,The car offers me protection against bad weather,2,Somewhat disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_10,The car offers me protection against bad weather,3,Neutral,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_10,The car offers me protection against bad weather,4,Somewhat agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_10,The car offers me protection against bad weather,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_10,The car offers me protection against bad weather,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_10,The car offers me protection against bad weather,7,"Not asked, person is younger than 17 years old",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_11,The car offers privacy,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_11,The car offers privacy,2,Somewhat disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_11,The car offers privacy,3,Neutral,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_11,The car offers privacy,4,Somewhat agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_11,The car offers privacy,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_11,The car offers privacy,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_11,The car offers privacy,7,"Not asked, person is younger than 17 years old",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_12,By car I can easily visit friends and family,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_12,By car I can easily visit friends and family,2,Somewhat disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_12,By car I can easily visit friends and family,3,Neutral,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_12,By car I can easily visit friends and family,4,Somewhat agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_12,By car I can easily visit friends and family,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_12,By car I can easily visit friends and family,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_12,By car I can easily visit friends and family,7,"Not asked, person is younger than 17 years old",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_13,I use the car for outings and holidays,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_13,I use the car for outings and holidays,2,Somewhat disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_13,I use the car for outings and holidays,3,Neutral,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_13,I use the car for outings and holidays,4,Somewhat agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_13,I use the car for outings and holidays,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_13,I use the car for outings and holidays,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_13,I use the car for outings and holidays,7,"Not asked, person is younger than 17 years old",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_14,The car makes it easy to take stuff with you,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_14,The car makes it easy to take stuff with you,2,Somewhat disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_14,The car makes it easy to take stuff with you,3,Neutral,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_14,The car makes it easy to take stuff with you,4,Somewhat agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_14,The car makes it easy to take stuff with you,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_14,The car makes it easy to take stuff with you,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_14,The car makes it easy to take stuff with you,7,"Not asked, person is younger than 17 years old",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_15,I only use the car when it is really necessary,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_15,I only use the car when it is really necessary,2,Somewhat disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_15,I only use the car when it is really necessary,3,Neutral,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_15,I only use the car when it is really necessary,4,Somewhat agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_15,I only use the car when it is really necessary,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_15,I only use the car when it is really necessary,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_15,I only use the car when it is really necessary,7,"Not asked, person is younger than 17 years old",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_16,The car gives me the freedom to go wherever I want,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_16,The car gives me the freedom to go wherever I want,2,Somewhat disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_16,The car gives me the freedom to go wherever I want,3,Neutral,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_16,The car gives me the freedom to go wherever I want,4,Somewhat agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_16,The car gives me the freedom to go wherever I want,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_16,The car gives me the freedom to go wherever I want,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_16,The car gives me the freedom to go wherever I want,7,"Not asked, person is younger than 17 years old",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_17,By car I can plan my own route,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_17,By car I can plan my own route,2,Somewhat disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_17,By car I can plan my own route,3,Neutral,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_17,By car I can plan my own route,4,Somewhat agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_17,By car I can plan my own route,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_17,By car I can plan my own route,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_17,By car I can plan my own route,7,"Not asked, person is younger than 17 years old",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_18,I love my car,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_18,I love my car,2,Somewhat disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_18,I love my car,3,Neutral,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_18,I love my car,4,Somewhat agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_18,I love my car,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_18,I love my car,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_18,I love my car,7,"Not asked, person is younger than 17 years old",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_19,I feel safe in my car,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_19,I feel safe in my car,2,Somewhat disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_19,I feel safe in my car,3,Neutral,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_19,I feel safe in my car,4,Somewhat agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_19,I feel safe in my car,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_19,I feel safe in my car,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_19,I feel safe in my car,7,"Not asked, person is younger than 17 years old",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_20,I like the engine sound of my car,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_20,I like the engine sound of my car,2,Somewhat disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_20,I like the engine sound of my car,3,Neutral,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_20,I like the engine sound of my car,4,Somewhat agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_20,I like the engine sound of my car,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_20,I like the engine sound of my car,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_20,I like the engine sound of my car,7,"Not asked, person is younger than 17 years old",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_21,My car suits me,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_21,My car suits me,2,Somewhat disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_21,My car suits me,3,Neutral,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_21,My car suits me,4,Somewhat agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_21,My car suits me,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_21,My car suits me,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_21,My car suits me,7,"Not asked, person is younger than 17 years old",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_22,My car is always available,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_22,My car is always available,2,Somewhat disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_22,My car is always available,3,Neutral,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_22,My car is always available,4,Somewhat agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_22,My car is always available,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_22,My car is always available,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_22,My car is always available,7,"Not asked, person is younger than 17 years old",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_23,"Thanks to my car, I am not dependent on others",1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_23,"Thanks to my car, I am not dependent on others",2,Somewhat disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_23,"Thanks to my car, I am not dependent on others",3,Neutral,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_23,"Thanks to my car, I am not dependent on others",4,Somewhat agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_23,"Thanks to my car, I am not dependent on others",5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_23,"Thanks to my car, I am not dependent on others",6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_23,"Thanks to my car, I am not dependent on others",7,"Not asked, person is younger than 17 years old",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_24,With my car I can distinguish myself from others,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_24,With my car I can distinguish myself from others,2,Somewhat disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_24,With my car I can distinguish myself from others,3,Neutral,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_24,With my car I can distinguish myself from others,4,Somewhat agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_24,With my car I can distinguish myself from others,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_24,With my car I can distinguish myself from others,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_24,With my car I can distinguish myself from others,7,"Not asked, person is younger than 17 years old",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_25,My car is a means to express myself to others,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_25,My car is a means to express myself to others,2,Somewhat disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_25,My car is a means to express myself to others,3,Neutral,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_25,My car is a means to express myself to others,4,Somewhat agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_25,My car is a means to express myself to others,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_25,My car is a means to express myself to others,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_25,My car is a means to express myself to others,7,"Not asked, person is younger than 17 years old",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_26,I regularly use my car to pick up or drop others off,1,strongly disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_26,I regularly use my car to pick up or drop others off,2,Somewhat disagree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_26,I regularly use my car to pick up or drop others off,3,Neutral,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_26,I regularly use my car to pick up or drop others off,4,Somewhat agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_26,I regularly use my car to pick up or drop others off,5,strongly agree,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_26,I regularly use my car to pick up or drop others off,6,No opinion,Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+AUTO_STELLING_W6_26,I regularly use my car to pick up or drop others off,7,"Not asked, person is younger than 17 years old",Ordinal,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+LEEFTIJD,<none>,999999999,<none>,Scale,Personal_preferences,MPNWAVE6_Pdata_bijzonder,0
+DEELNAMEHH,Participation on household level (starting year),999999999,,Scale,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+IMPHHDATA,Imputation household characteristics,0,"no household questionnaire, did not participate in 2017",Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+IMPHHDATA,Imputation household characteristics,1,"no household questionnaire, imputation of household characteristics 2017",Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+IMPHHDATA,Imputation household characteristics,2,household questionnaire is completed,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+STED_GM,Urbanity (municipal level),1,Very highly urbanized (2500 or more inhabitants/km²),Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+STED_GM,Urbanity (municipal level),2,Highly urbanized (1500 to 2500 inhabitants/km²),Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+STED_GM,Urbanity (municipal level),3,Moderately urbanized (1000 to 1500 inhabitants/km²),Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+STED_GM,Urbanity (municipal level),4,Low urbanization (500 to 1000 inhabitants/km²),Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+STED_GM,Urbanity (municipal level),5,Non-urbanized area (Less than 500 inhabitants/km²),Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+PROV,Province municipality of residence,20,Groningen,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+PROV,Province municipality of residence,21,Friesland,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+PROV,Province municipality of residence,22,Drenthe,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+PROV,Province municipality of residence,23,Overijssel,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+PROV,Province municipality of residence,24,Flevoland,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+PROV,Province municipality of residence,25,Gelderland,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+PROV,Province municipality of residence,26,Utrecht,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+PROV,Province municipality of residence,27,North-Holland,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+PROV,Province municipality of residence,28,South-Holland,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+PROV,Province municipality of residence,29,Zeeland,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+PROV,Province municipality of residence,30,North-Brabant,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+PROV,Province municipality of residence,31,Limburg,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,1,East-Groningen,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,2,Delfzijl and surroundings,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,3,Other Groningen,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,4,North-Friesland,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,5,Southwest-Friesland,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,6,Southeast-Friesland,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,7,North-Drenthe,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,8,Southeast-Drenthe,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,9,Southwest-Drenthe,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,10,North-Overijssel,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,11,Southwest-Overijssel,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,12,Twente,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,13,Veluwe,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,14,Achterhoek,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,15,Arnhem/Nijmegen,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,16,Southwest-Gelderland,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,17,Utrecht,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,18,Kop van North-Holland,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,19,Alkmaar and surroundings,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,20,IJmond,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,21,Haarlem agglomeration,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,22,Zaanstreek,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,23,Other Greater-Amsterdam,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,24,Het Gooi and Vechtstreek,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,25,Leiden and Bollenstreek agglomeration,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,26,s-Gravenhage agglomeration,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,27,Delft and Westland,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,28,East-South-Holland,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,29,Rijnmond,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,30,Southeast-South-Holland,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,31,Zeeuwsch-Vlaanderen,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,32,Other Zeeland,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,33,West-North-Brabant,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,34,Central-North-Brabant,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,35,Other Northeast-North-Brabant,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,36,Southeast-North-Brabant,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,37,North-Limburg,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,38,Central-Limburg,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,39,South-Limburg,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+COROP,Corop Area municipality of residence,40,Flevoland,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+HHSAM,Household composition,1,Single person household,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHSAM,Household composition,2,Couple,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHSAM,Household composition,3,Couple + child(ren),Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHSAM,Household composition,4,Couple + child(ren) + other(s),Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHSAM,Household composition,5,Couple + other(s),Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHSAM,Household composition,6,Single parent family + child(ren),Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHSAM,Household composition,7,Single parent family + child(ren) + other(s),Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHSAM,Household composition,8,A different type of family situation,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHSAM,Household composition,99,"no household questionnaire, no imputation from 2017 possible",Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHBRUTOINK2_w5,Gross income household aggregated,1,"minimum (< € 13,700)",Ordinal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHBRUTOINK2_w5,Gross income household aggregated,2,"below the national benchmark income (€ 13,700 - < € 28,600)",Ordinal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHBRUTOINK2_w5,Gross income household aggregated,3,"national benchmark income (€ 28,600 - < € 42,400)",Ordinal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHBRUTOINK2_w5,Gross income household aggregated,4,"1-2x the national benchmark income (€ 42,400 - < € 71,000)",Ordinal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHBRUTOINK2_w5,Gross income household aggregated,5,"2x the national benchmark income (€ 71,000 - < € 84,700)",Ordinal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHBRUTOINK2_w5,Gross income household aggregated,6,"more than 2x the national benchmark income (>= € 84,700)",Ordinal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHBRUTOINK2_w5,Gross income household aggregated,7,Do not know / do not want to say,Ordinal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHAUTO_N,Number of cars in the household,99,no household questionnaire,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHAUTO,Yes or no car in the household,0,No,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHAUTO,Yes or no car in the household,1,Yes,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHAUTO,Yes or no car in the household,99,"no household questionnaire, no imputation from 2017 possible",Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHBESTEL,Yes or no van in the household,0,No,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHBESTEL,Yes or no van in the household,1,Yes,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHBESTEL,Yes or no van in the household,99,"no household questionnaire, no imputation from 2017 possible",Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHHYBRID,"Yes or no electric, hybrid, hydrogen car in the household",0,No,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHHYBRID,"Yes or no electric, hybrid, hydrogen car in the household",1,Yes,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHHYBRID,"Yes or no electric, hybrid, hydrogen car in the household",99,"no household questionnaire, no imputation from 2017 possible",Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHMOTOR,Yes or no motorcycle in the household,0,No,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHMOTOR,Yes or no motorcycle in the household,1,Yes,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHMOTOR,Yes or no motorcycle in the household,99,"no household questionnaire, no imputation from 2017 possible",Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHBROM,Yes or no moped in the household,0,No,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHBROM,Yes or no moped in the household,1,Yes,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHBROM,Yes or no moped in the household,99,"no household questionnaire, no imputation from 2017 possible",Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHSNOR,Yes or no light moped in the household,0,No,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHSNOR,Yes or no light moped in the household,1,Yes,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHSNOR,Yes or no light moped in the household,99,"no household questionnaire, no imputation from 2017 possible",Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHFIETS,"Yes or no bicycle, racing bicycle in the household",0,No,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHFIETS,"Yes or no bicycle, racing bicycle in the household",1,Yes,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHFIETS,"Yes or no bicycle, racing bicycle in the household",99,"no household questionnaire, no imputation from 2017 possible",Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHVOUWFIETS,Yes or no folding bike in the household,0,No,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHVOUWFIETS,Yes or no folding bike in the household,1,Yes,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHVOUWFIETS,Yes or no folding bike in the household,99,"no household questionnaire, no imputation from 2017 possible",Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHEBIKE,"Yes or no electric bicycle, e-bike in the household",0,No,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHEBIKE,"Yes or no electric bicycle, e-bike in the household",1,Yes,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHEBIKE,"Yes or no electric bicycle, e-bike in the household",99,"no household questionnaire, no imputation from 2017 possible",Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+HHPEDEL,Whether or not a speed pedelec in the household,0,No,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+HHPEDEL,Whether or not a speed pedelec in the household,1,Yes,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+HHPEDEL,Whether or not a speed pedelec in the household,99,"no household questionnaire, no imputation from 2017 possible",Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+HHSCOOT,Whether or not a mobility scooter in the household,0,No,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+HHSCOOT,Whether or not a mobility scooter in the household,1,Yes,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+HHSCOOT,Whether or not a mobility scooter in the household,99,"no household questionnaire, no imputation from 2017 possible",Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+HHOVG,Other means of transport in the household or not,0,No,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+HHOVG,Other means of transport in the household or not,1,Yes,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+HHOVG,Other means of transport in the household or not,99,"no household questionnaire, no imputation from 2017 possible",Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+HHGEEN,No transport mode in the household,0,The household does have a transport mode,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+HHGEEN,No transport mode in the household,1,The household does not have a transport mode,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+HHGEEN,No transport mode in the household,99,"no household questionnaire, no imputation from 2017 possible",Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+HHPARK1,Parking place on own property/driveway/garage at home available,0,No,Scale,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+HHPARK1,Parking place on own property/driveway/garage at home available,1,Yes,Scale,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+HHPARK1,Parking place on own property/driveway/garage at home available,99,"no household questionnaire, no imputation from 2017 possible",Scale,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+HHPARK2,Open (free) parking on the street/parking lot near home available,0,No,Scale,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+HHPARK2,Open (free) parking on the street/parking lot near home available,1,Yes,Scale,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+HHPARK2,Open (free) parking on the street/parking lot near home available,99,"no household questionnaire, no imputation from 2017 possible",Scale,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+HHPARK3,Permit parking near home available,0,No,Scale,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+HHPARK3,Permit parking near home available,1,Yes,Scale,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+HHPARK3,Permit parking near home available,99,"no household questionnaire, no imputation from 2017 possible",Scale,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+HHPARK4,Paid parking near home available,0,No,Scale,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+HHPARK4,Paid parking near home available,1,Yes,Scale,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+HHPARK4,Paid parking near home available,99,"no household questionnaire, no imputation from 2017 possible",Scale,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+KILOMETRAGE,Number of kilometres that household members travel per year by car and/or motorcycle,1,"less than 10,000 km per year",Ordinal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+KILOMETRAGE,Number of kilometres that household members travel per year by car and/or motorcycle,2,"10,000 to 20,000 km per year",Ordinal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+KILOMETRAGE,Number of kilometres that household members travel per year by car and/or motorcycle,3,"20,000 to 30,000 km per year",Ordinal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+KILOMETRAGE,Number of kilometres that household members travel per year by car and/or motorcycle,4,"30,000 to 40,000 km per year",Ordinal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+KILOMETRAGE,Number of kilometres that household members travel per year by car and/or motorcycle,5,"40,000 to 50,000 km per year",Ordinal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+KILOMETRAGE,Number of kilometres that household members travel per year by car and/or motorcycle,6,"50,000 to 60,000 km per year",Ordinal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+KILOMETRAGE,Number of kilometres that household members travel per year by car and/or motorcycle,7,"60,000 to 70,000 km per year",Ordinal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+KILOMETRAGE,Number of kilometres that household members travel per year by car and/or motorcycle,8,"70,000 to 80,000 km per year",Ordinal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+KILOMETRAGE,Number of kilometres that household members travel per year by car and/or motorcycle,9,"80,000 km or more per year",Ordinal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+KILOMETRAGE,Number of kilometres that household members travel per year by car and/or motorcycle,10,Unknown,Ordinal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+KENTEKENINFO,Will you provide the license plate number of each car in the household?,1,"Yes, I want to",Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+KENTEKENINFO,Will you provide the license plate number of each car in the household?,2,"No, I do not want to",Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+KENTEKENINFO,Will you provide the license plate number of each car in the household?,3,No cars and/or motorcycles in the household,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+KENTEKENINFO,Will you provide the license plate number of each car in the household?,4,Unknown,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+KENTEKENINFO,Will you provide the license plate number of each car in the household?,99,no household questionnaire,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+HHPERS,Number of people in the household,999999999,Number of people in the household,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+N_KIND,Number of children <12 years old in the household,999999999,Number of children <12 years old in the household,Nominal,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,1
+centrumsgw,Straight line distance between nearest centre of a urban district and arrival point,999999999,Straight line distance between nearest centre of a urban district and arrival point,Scale,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+opafrit,Straight line distance between nearest approach or exit road and departure point,999999999,Straight line distance between nearest approach or exit road and departure point,Scale,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+icknooppunt,Straigth line distance between nearest intercity junction and departure point,999999999,Straigth line distance between nearest intercity junction and departure point,Scale,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+station,Straight line distance between nearest station and departure point,999999999,Straight line distance between nearest station and departure point,Scale,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+metrosneltramhalte,Straight line distance between nearest metro or express tram stop and departure point,999999999,Straight line distance between nearest metro or express tram stop and departure point,Scale,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+tramhalte,Straight line distance between nearest tram stop and departure point,999999999,Straight line distance between nearest tram stop and departure point,Scale,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+bushalte4xpu,Straight line distance between nearest bus stop with at least 4 times per hour a bus and arrival point,999999999,Straight line distance between nearest bus stop with at least 4 times per hour a bus and arrival point,Scale,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+bushalte2xpu,Straight line distance between nearest bus stop with at least 2 times per hour a bus and arrival point,999999999,Straight line distance between nearest bus stop with at least 2 times per hour a bus and arrival point,Scale,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+bushalte1xpu,Straight line distance between nearest bus stop with at least 1 time per hour a bus and arrival point,999999999,Straight line distance between nearest bus stop with at least 1 time per hour a bus and arrival point,Scale,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
+bushalteminder1xpu,Straight line distance between nearest bus stop and arrival point,999999999,Straight line distance between nearest bus stop and arrival point,Scale,Data_HouseHold,MPNWAVE6_HHdata_North-Holland,0
