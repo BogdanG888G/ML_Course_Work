@@ -20,7 +20,7 @@
 ## 📦 Установка
 ```bash
 git clone https://github.com/BogdanG888G/ML_Course_Work_dataset2.git
-cd multiclass-stacking
+cd ML_Course_Work_dataset2
 pip install -r requirements.txt
 ```
 
